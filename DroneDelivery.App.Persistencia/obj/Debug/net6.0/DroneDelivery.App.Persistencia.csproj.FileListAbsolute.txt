@@ -1,0 +1,17 @@
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.AssemblyInfo.cs
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\bin\Debug\net6.0\DroneDelivery.App.Persistencia.deps.json
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\bin\Debug\net6.0\DroneDelivery.App.Persistencia.runtimeconfig.json
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\bin\Debug\net6.0\DroneDelivery.App.Persistencia.dll
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\bin\Debug\net6.0\DroneDelivery.App.Persistencia.pdb
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\bin\Debug\net6.0\DroneDelivery.App.Dominio.dll
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\bin\Debug\net6.0\DroneDelivery.App.Dominio.pdb
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.csproj.CopyComplete
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.dll
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\refint\DroneDelivery.App.Persistencia.dll
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.pdb
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\DroneDelivery.App.Persistencia.genruntimeconfig.cache
+C:\Users\Leonard\Documents\MISIONTIC2022\CICLO_3\DESARROLLO_SOFTWARE\PROJECTS\DroneDelivery.App\DroneDelivery.App.Persistencia\obj\Debug\net6.0\ref\DroneDelivery.App.Persistencia.dll

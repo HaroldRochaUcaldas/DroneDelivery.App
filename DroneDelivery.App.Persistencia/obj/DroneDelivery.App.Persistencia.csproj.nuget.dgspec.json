@@ -4,14 +4,14 @@
     "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\DroneDelivery.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\DroneDelivery.App.Persistencia.csproj": {
+    "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Dominio\\DroneDelivery.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\DroneDelivery.App.Persistencia.csproj",
-        "projectName": "DroneDelivery.App.Persistencia",
-        "projectPath": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\DroneDelivery.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Dominio\\DroneDelivery.App.Dominio.csproj",
+        "projectName": "DroneDelivery.App.Dominio",
+        "projectPath": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Dominio\\DroneDelivery.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Leonard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leonard\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,84 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\DroneDelivery.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\DroneDelivery.App.Persistencia.csproj",
+        "projectName": "DroneDelivery.App.Persistencia",
+        "projectPath": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\DroneDelivery.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Leonard\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leonard\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Dominio\\DroneDelivery.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Leonard\\Documents\\MISIONTIC2022\\CICLO_3\\DESARROLLO_SOFTWARE\\PROJECTS\\DroneDelivery.App\\DroneDelivery.App.Dominio\\DroneDelivery.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

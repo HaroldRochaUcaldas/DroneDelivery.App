@@ -3,13 +3,26 @@ using System;
 namespace DroneDelivery.App.Dominio
 {
 
-public class Persona
+public class Person
     {
-        public string Nombre {set;get;}
-        public string edad {set;get;}
-        public string cedula{set;get;}
-        public string celular{set;get;}
-        public string email{set;get;}
+
+        public string Name {set;get;}
+        public string Age {set;get;}
+        public string PIN {set;get;} // Personal Identification Number
+        public string Phone {set;get;}
+        public string Email {set;get;}
+
+
+
+        public Person (string name, string age, string pin,
+                        string phone, string email)
+        {
+            this.Name = nombre;
+            this.Age = age;
+            this.PIN = pin;
+            this.Phone = phone;
+            this.Email = email;
+        }
 
     }
 }

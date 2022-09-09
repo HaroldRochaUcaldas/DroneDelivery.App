@@ -2,15 +2,30 @@ using System;
 
 namespace DroneDelivery.App.Dominio
 {
-    public class Cliente : Persona 
+    public class ShippingClient : Person
     {
-        public int NumeroEnviosRecibidos{set;get;}
-        public int NumeroEnviosRealizados{set;get;}
-        public int CalificacionPromedioRecibido{set;get;}
-        public int CalificacionPromedioRealizado{set;get;}
+        public int Id {get;set;}
+        public int ReceivedShippments{get;set;}
+        public int SentShipments{get;set;}
+        public float AverageRatingReceived{get;set;}
+        public float AverageRatingReceived{get;set;}
+        public Location ClientLocation{get;set;}
+        public string ClientAddress{get;set;} 
+        
+        private ShippingClient (int id)
+        {
+            this.Id = id;
+        }
+
+        public ShippingClient (string name, string age, string pin,
+         string phone, string email) : base (name , age, pin, phone, email)
+         {
+            
+         }
 
         //Class Methods
-        public void calificarEnvio(Envio envio, 
+        /*
+        public void RateService(E envio, 
                                    int calificacion,
                                    string tipoEnvio) 
         {
@@ -33,7 +48,7 @@ namespace DroneDelivery.App.Dominio
                 break;
             
             }
-        }
+        }*/
 
     }
 }
