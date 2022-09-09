@@ -14,8 +14,7 @@ namespace DroneDelivery.App.Dominio
         public int TransferedPackages {get;set;}
         public Operator PostOperator {get;set;}
         public Location OfficeLocation {get;set;}
-
-
+        public List<Operator> Employees {get;set;}
 
         public PostOffice (int id)
         {

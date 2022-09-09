@@ -6,32 +6,32 @@ namespace DroneDelivery.App.Dominio
     public class City
     {
         public int Id {get;set;}
-        public string Nombre {get;set;}
-        public string Departamento {get;set;}
-        public string Codigo {get;set;}
-        public ICollection<ZonaProhibida> ZPV {get;set;}
-        public List<Ubicacion> Limites {get;set;}
+        public string Name {get;set;}
+        public string State {get;set;}
+        public string Code {get;set;}
+        public ICollection<ForbidenFlightZone> FFZ {get;set;}
+        public List<Location> CityLimits {get;set;}
 
-        public ICollection<ZonaReparto> Zonas {get;set;}
+        public ICollection<DeliveryZone> Zones {get;set;}
         
         private Municipio (int id)
         {
             this.Id = id;
         }
 
-        public Municipio (string nombre, string departamento, string codigo)
+        public Municipio (string name, string state, string code)
         {
-            this.Nombre = nombre;
-            this.Departamento = departamento;
-            this.Codigo = codigo;
+            this.Name = name;
+            this.State = state;
+            this.Code = code;
 
         }
 
-        public void ModificarLimites (List<Ubicacion> limites)
+        public void ModificarLimites (List<Location> limites)
         {
             if (limites.Count >= 4) 
             {
-                this.Limites = limites;                
+                this.CityLimits = limites;                
             } else
             {
                 throw new ArgumentException(String.Format(
@@ -40,11 +40,11 @@ namespace DroneDelivery.App.Dominio
             }
         }
 
-        public void AgregarLimites (List<Ubicacion> limites)
+        public void AgregarLimites (List<Location> limites)
         {
-            foreach (Ubicacion punto in limites) 
+            foreach (Location punto in limites) 
             {
-                this.Limites.Add(punto);
+                this.CityLimits.Add(punto);
             }
         }
 

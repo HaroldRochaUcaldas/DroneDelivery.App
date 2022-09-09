@@ -3,27 +3,29 @@ using DroneDelivery.App.Dominio;
 
 namespace DroneDelivery.App.Dominio
 {
-    public class GerenteOperacion : Persona
+    public class LocalManager : Person
     {
         public string telOficina {get;set;}
         public string User {get;set;}
         public string Password {get;set;}
 
-        public GerenteOperacion (string nombre, string edad, string cedula,
+        public LocalManager (string nombre, string edad, string cedula,
             string celular, string email) : base (nombre, edad, cedula, celular,
             email)
         {
             
         }
         
-        public void ContratarEncargado (ZonaReparto zona, Persona empleado)
+        public void CreateDeliver (Warehouse deliveryCenter,
+          PostOfficeCarrier carrier)
         {
-            zona.Empleados.Add(empleado);
+            deliveryCente.Employees.Add(carrier);
         }
 
-        public void ContratarOperador (Sucursal sucursal, Persona empleado)
+        public void CreateOperador (PostOffice postOffice, 
+         PostOfficeClerk clerk)
         {
-            sucursal.Empleados.Add(empleado);
+            postOffice.Employees.Add(empleado);
         }
     }
 }
